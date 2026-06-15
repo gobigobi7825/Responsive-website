@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mara Voss — Product Designer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#" class="nav__wordmark" aria-label="Mara Voss home">MV</a>
+
+      <button class="nav__menu-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="#work" class="nav__link">Work</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#process" class="nav__link">Process</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" aria-label="Toggle light/dark mode" id="themeToggle">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero__grid">
+        <div class="hero__text">
+          <p class="hero__eyebrow">Product Design · Systems · Strategy</p>
+          <h1 class="hero__headline">
+            Design that <em>thinks</em><br>before it looks.
+          </h1>
+          <p class="hero__body">
+            I'm Mara Voss — I design product experiences where clarity of purpose shapes every pixel. Currently open to senior roles and select freelance.
+          </p>
+          <div class="hero__actions">
+            <a href="#work" class="btn btn--primary">View Work</a>
+            <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__canvas">
+            <div class="hero__orbit hero__orbit--1">
+              <span class="hero__dot"></span>
+            </div>
+            <div class="hero__orbit hero__orbit--2">
+              <span class="hero__dot"></span>
+            </div>
+            <div class="hero__core">
+              <span class="hero__initials">MV</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__stats" role="list" aria-label="Career highlights">
+        <div class="hero__stat" role="listitem">
+          <span class="hero__stat-number">8+</span>
+          <span class="hero__stat-label">Years Experience</span>
+        </div>
+        <div class="hero__stat" role="listitem">
+          <span class="hero__stat-number">40+</span>
+          <span class="hero__stat-label">Products Shipped</span>
+        </div>
+        <div class="hero__stat" role="listitem">
+          <span class="hero__stat-number">3</span>
+          <span class="hero__stat-label">Design Systems Built</span>
+        </div>
+        <div class="hero__stat" role="listitem">
+          <span class="hero__stat-number">12M+</span>
+          <span class="hero__stat-label">Users Reached</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ WORK ═══════════════════════════ -->
+    <section class="section work" id="work" aria-labelledby="work-heading">
+      <div class="section__header">
+        <h2 class="section__title" id="work-heading">Selected Work</h2>
+        <p class="section__subtitle">Interaction, systems, and strategy — across fintech, health, and productivity.</p>
+      </div>
+
+      <div class="work__grid">
+
+        <article class="card card--featured" aria-label="Finova Banking project">
+          <div class="card__media">
+            <div class="card__mockup card__mockup--finova" aria-hidden="true">
+              <div class="mockup__screen">
+                <div class="mockup__bar"></div>
+                <div class="mockup__content">
+                  <div class="mockup__chart">
+                    <div class="mockup__bar-group">
+                      <span style="--h:60%"></span><span style="--h:80%"></span>
+                      <span style="--h:45%"></span><span style="--h:90%"></span>
+                      <span style="--h:70%"></span><span style="--h:55%"></span>
+                    </div>
+                  </div>
+                  <div class="mockup__row"></div>
+                  <div class="mockup__row mockup__row--short"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="tag">Fintech</span>
+              <span class="tag">2024</span>
+            </div>
+            <h3 class="card__title">Finova Banking</h3>
+            <p class="card__desc">Redesigned the core transaction experience for a challenger bank — reduced support tickets by 34% and lifted daily active use by 22%.</p>
+            <a href="#" class="card__link" aria-label="View Finova Banking case study">View Case Study →</a>
+          </div>
+        </article>
+
+        <article class="card" aria-label="Pulse Health project">
+          <div class="card__media">
+            <div class="card__mockup card__mockup--pulse" aria-hidden="true">
+              <div class="mockup__phone">
+                <div class="mockup__notch"></div>
+                <div class="mockup__ring ring--lg"></div>
+                <div class="mockup__ring ring--sm"></div>
+                <div class="mockup__metric">
+                  <span class="mockup__num">82</span>
+                  <span class="mockup__unit">bpm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="tag">Health</span>
+              <span class="tag">iOS</span>
+            </div>
+            <h3 class="card__title">Pulse Health</h3>
+            <p class="card__desc">End-to-end mobile app for cardiac patients. FDA 510(k) pathway — shipped in 11 months.</p>
+            <a href="#" class="card__link" aria-label="View Pulse Health case study">View Case Study →</a>
+          </div>
+        </article>
+
+        <article class="card" aria-label="Clarity OS project">
+          <div class="card__media">
+            <div class="card__mockup card__mockup--clarity" aria-hidden="true">
+              <div class="mockup__window">
+                <div class="mockup__dots"><span></span><span></span><span></span></div>
+                <div class="mockup__sidebar">
+                  <div class="mockup__item"></div>
+                  <div class="mockup__item mockup__item--active"></div>
+                  <div class="mockup__item"></div>
+                </div>
+                <div class="mockup__main">
+                  <div class="mockup__header-bar"></div>
+                  <div class="mockup__cards">
+                    <div class="mockup__mini-card"></div>
+                    <div class="mockup__mini-card"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="tag">Productivity</span>
+              <span class="tag">SaaS</span>
+            </div>
+            <h3 class="card__title">Clarity OS</h3>
+            <p class="card__desc">Work management platform for distributed teams. Designed the entire IA and design system from zero to Series A.</p>
+            <a href="#" class="card__link" aria-label="View Clarity OS case study">View Case Study →</a>
+          </div>
+        </article>
+
+        <article class="card card--wide" aria-label="Design Systems project">
+          <div class="card__body">
+            <div class="card__meta">
+              <span class="tag">Systems</span>
+              <span class="tag">Tokens</span>
+              <span class="tag">Figma</span>
+            </div>
+            <h3 class="card__title">Design Systems Consultancy</h3>
+            <p class="card__desc">Three enterprise design systems spanning 200+ components, multi-brand token architecture, and cross-functional documentation that engineers actually read.</p>
+            <a href="#" class="card__link" aria-label="View Design Systems case study">View Case Study →</a>
+          </div>
+          <div class="card__system-visual" aria-hidden="true">
+            <div class="system__tokens">
+              <div class="token token--color" style="--c: var(--accent)"></div>
+              <div class="token token--color" style="--c: var(--accent-2)"></div>
+              <div class="token token--color" style="--c: var(--surface-2)"></div>
+              <div class="token token--color" style="--c: var(--text-2)"></div>
+              <div class="token token--radius"></div>
+              <div class="token token--type"></div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="about__grid">
+
+        <div class="about__portrait" aria-hidden="true">
+          <div class="about__portrait-frame">
+            <div class="about__portrait-art">
+              <div class="portrait__geo geo--1"></div>
+              <div class="portrait__geo geo--2"></div>
+              <div class="portrait__geo geo--3"></div>
+              <span class="portrait__letter">M</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <h2 class="section__title" id="about-heading">About</h2>
+          <p class="about__lead">
+            I believe the best interfaces are the ones people don't have to think about.
+          </p>
+          <p class="about__body">
+            Eight years ago I started designing for agencies. Now I embed directly with product teams to shape strategy before wireframes exist. My background spans fintech, health tech, B2B SaaS, and consumer apps — which means I bring cross-domain pattern recognition to every problem I touch.
+          </p>
+          <p class="about__body">
+            I live in Berlin, work across time zones, and am fluent in English, German, and the language of unhappy stakeholders.
+          </p>
+
+          <div class="skills">
+            <div class="skills__group">
+              <h3 class="skills__label">Craft</h3>
+              <ul class="skills__list" role="list">
+                <li>Product Design</li><li>Interaction Design</li>
+                <li>Design Systems</li><li>Prototyping</li>
+              </ul>
+            </div>
+            <div class="skills__group">
+              <h3 class="skills__label">Tools</h3>
+              <ul class="skills__list" role="list">
+                <li>Figma</li><li>Framer</li>
+                <li>Principle</li><li>Zeroheight</li>
+              </ul>
+            </div>
+            <div class="skills__group">
+              <h3 class="skills__label">Code</h3>
+              <ul class="skills__list" role="list">
+                <li>HTML / CSS</li><li>React</li>
+                <li>Swift (basic)</li><li>Storybook</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ PROCESS ═══════════════════════════ -->
+    <section class="section process" id="process" aria-labelledby="process-heading">
+      <div class="section__header">
+        <h2 class="section__title" id="process-heading">How I Work</h2>
+        <p class="section__subtitle">A repeatable loop — not a waterfall.</p>
+      </div>
+
+      <div class="process__track">
+
+        <div class="process__step">
+          <div class="process__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <div class="process__body">
+            <h3 class="process__title">Understand</h3>
+            <p class="process__desc">Stakeholder interviews, user research, competitive audit. I enter every project with questions, not answers.</p>
+          </div>
+        </div>
+
+        <div class="process__connector" aria-hidden="true"></div>
+
+        <div class="process__step">
+          <div class="process__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <div class="process__body">
+            <h3 class="process__title">Frame</h3>
+            <p class="process__desc">Opportunity definition, problem framing, success metrics. Strategy before screens.</p>
+          </div>
+        </div>
+
+        <div class="process__connector" aria-hidden="true"></div>
+
+        <div class="process__step">
+          <div class="process__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
+          <div class="process__body">
+            <h3 class="process__title">Explore</h3>
+            <p class="process__desc">Divergent ideation, lo-fi flows, rapid iteration. I sketch ugly before I design beautiful.</p>
+          </div>
+        </div>
+
+        <div class="process__connector" aria-hidden="true"></div>
+
+        <div class="process__step">
+          <div class="process__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="process__body">
+            <h3 class="process__title">Validate</h3>
+            <p class="process__desc">Prototype testing, usability studies, data synthesis. Decisions earn their place with evidence.</p>
+          </div>
+        </div>
+
+        <div class="process__connector" aria-hidden="true"></div>
+
+        <div class="process__step">
+          <div class="process__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="process__body">
+            <h3 class="process__title">Ship &amp; Learn</h3>
+            <p class="process__desc">Developer handoff, QA partnership, post-launch analytics. Done means live — not handed off.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact__inner">
+        <h2 class="section__title" id="contact-heading">Let's Work Together</h2>
+        <p class="contact__lead">
+          I'm available for senior IC roles and select consulting engagements starting Q3 2025. If the problem is hard and the team cares — I want to hear about it.
+        </p>
+
+        <div class="contact__channels">
+          <a href="mailto:mara@maravoss.design" class="contact__channel">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>mara@maravoss.design</span>
+          </a>
+          <a href="#" class="contact__channel">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="#" class="contact__channel">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+
+        <p class="contact__location">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Berlin, Germany · CET (UTC+1)
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <p class="footer__copy">© 2025 Mara Voss. Built with semantic HTML, CSS Grid, and strong opinions.</p>
+    <a href="#" class="footer__back" aria-label="Back to top">↑ Top</a>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
